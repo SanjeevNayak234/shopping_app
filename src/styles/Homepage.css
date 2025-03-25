@@ -1,0 +1,58 @@
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+/* Adjust the main content layout */
+.main-content {
+  display: flex;
+  margin-top: 10px; /* Reduced margin for a tighter layout */
+}
+
+/* Refine the filter sidebar styling */
+.filter-sidebar {
+  width: 20%;
+  padding: 15px; /* Reduced padding for compact styling */
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  box-shadow: none; /* Removed unnecessary shadows */
+}
+
+/* Position product section properly */
+.product-section {
+  width: 80%;
+  padding: 15px; /* Reduced padding */
+}
+
+/* Ensure the product grid is tightly aligned */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Adjusted for better alignment */
+  gap: 15px; /* Reduced gap between cards */
+  margin-top: 20px; /* Added spacing between heading and product grid */
+  margin-bottom: 30px;
+}
+
+/* Center heading section */
+.heading-section {
+  text-align: center;
+  margin-bottom: 20px; /* Adjusted spacing below heading */
+}
+
+.heading-section h1 {
+  font-size: 2.2rem; /* Reduced font size for smaller header */
+  font-weight: bold; /* Ensures the heading stands out */
+  color: #333;
+  margin-bottom: 10px; /* Ensures proper spacing between heading and description */
+}
+
+.heading-section p {
+  font-size: 1rem; /* Adjusted font size for description text */
+  color: #666;
+}
+
+/* Add global spacing adjustments */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

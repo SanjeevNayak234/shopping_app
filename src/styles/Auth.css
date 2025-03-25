@@ -1,0 +1,8 @@
+.auth-container textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none; /* Prevents resizing of the address field */
+  }

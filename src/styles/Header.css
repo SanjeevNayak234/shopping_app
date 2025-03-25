@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0; /* Reduced padding for smaller header */
+  background-color: transparent; /* Ensures no background color */
+  color: #333; /* Text color for readability */
+  box-shadow: none; /* Ensures no shadow */
+  border: none; /* Removes any visible borders */
+}
+
+.logo {
+  font-size: 1.5rem; /* Reduced logo size */
+  margin-bottom: 5px; /* Adjust spacing below logo */
+}
+
+nav {
+  display: flex;
+  gap: 15px; /* Reduces spacing between navigation links */
+  justify-content: center;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem; /* Reduced font size for links */
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ff9800; /* Highlight link color on hover */
+}
+
+.header-actions {
+  display: flex;
+  gap: 5px; /* Reduces spacing between icons */
+  margin-top: 10px; /* Adds minimal spacing above actions */
+}
+
+.search-input {
+  padding: 6px; /* Reduced input padding */
+  border-radius: 3px; /* Adjusts border radius for compact design */
+  border: 1px solid #ccc;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem; /* Reduced icon size */
+  color: #333;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  color: #ff9800; /* Hover effect for icons */
+}
